@@ -1,0 +1,58 @@
+.btn {
+    height          : 50px;
+    width           : 200px;
+    min-width       : 200px;
+    margin          : 10px 10px 10px 10px;
+    background-color: $theme-color3;
+    color           : $theme-color1;
+    border          : 2px solid $theme-color1;
+    border-radius   : 15px;
+
+    &__p{
+        font-weight : bold;
+        text-align  : center;
+    }
+}
+
+.order-number {
+    border-radius   : 4px;
+    width           : 30px;
+    height          : 30px;    
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+
+    span {
+        font-size   : $font-size-l;
+        font-weight : bold;
+        color       : $theme-color1;
+
+        @media screen and (max-width: $mq-sp) {
+            font-size: $font-size-s;
+        }
+    }
+}
+
+.badge {
+    width           : 70px;
+    height          : 30px;    
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    background-color: $theme-color7;
+    border          : 2px solid $theme-color1;
+    border-radius   : 4px;
+    
+    &_off {
+        @extend .badge;
+        background      : none;
+        border          : none;
+    }
+
+    span {
+        font-size   : $font-size-xs;
+        font-weight : bold;
+        color       : $theme-color1;
+    }
+}
+
