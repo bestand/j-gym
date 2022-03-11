@@ -19,4 +19,4 @@ jobs:
             username: ${{ secrets.PROD_USERNAME }}
             password: ${{ secrets.PROD_PASSWORD }}
             local-dir: ./
-            server-dir: /test
+            server-dir: /test/
