@@ -1,0 +1,22 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+      
+jobs:
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
+    runs-on: ubuntu-latest
+
+    steps:
+        - uses: actions/checkout@v2   # チェックアウトアクション（https://github.com/actions/checkout）
+        - name: FTP-Deploy-Action
+          uses: SamKirkland/FTP-Deploy-Action@4.2.0
+          with:
+            server: ${{ secrets.STAGING_SERVER }}       # FTPのサーバーアドレス
+            username: ${{ secrets.STAGING_USERNAME }}   # FTPのユーザー名名
+            password: ${{ secrets.STAGING_PASSWORD }}   # FTPのパスワード
+            local-dir: ./src/                           # アップロードしたいファイルのパス、この場合srcディレクトリ内をアップロード対象としている
+            server-dir: /public_html/project/stag/      # アップロード先のリモートパス
