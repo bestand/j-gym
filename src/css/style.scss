@@ -85,16 +85,13 @@ header {
             display         : flex;
             flex-direction  : column;
             align-items     : center;
-            margin     : 100px auto 0 auto;
+            margin          : 100px auto 0 auto;
             
             li {
                 margin       : 15px 0 15px 0;
                 font-size    : $font-size-l;
             }
         }
-
-        
-
     }
 
     .hamburger-btn {
@@ -106,8 +103,8 @@ header {
         cursor          : pointer;
         margin          : 10px 10px 10px auto;
         z-index         : 1000;
-        transition: all .5s;
-        box-sizing: border-box;
+        transition      : all .5s;
+        box-sizing      : border-box;
 
         span {
             position: absolute;
@@ -503,15 +500,15 @@ main {
 
                     &__tag {
                         width   : 15%;
-                        margin      : 0px 10px 0px 10px;
+                        margin  : 0px 10px 0px 10px;
                         span {
                             font-size   : $font-size-xs;
                         }
                     }
-
+                    
                     &__category {
                         width   : 15%;
-                        margin      : 0px 10px 0px 10px;
+                        margin  : 0px 10px 0px 10px;
                         span {
                             font-size   : $font-size-xs;
                         }
@@ -542,9 +539,10 @@ main {
                         flex-direction  : column;
                         align-items     : center;
                         justify-content : center;
-                        margin          : 5px 0px 5px 0px;
+                        width           : 90%;
+                        margin          : 5px auto 5px auto;
                         span {
-                            margin      : 0px 10px 0px 10px;
+                            margin      : 5px 10px 5px 10px;
                             font-size   : $font-size-s;
                         }
                     }
@@ -559,8 +557,6 @@ main {
                         border-top      : 2px solid $theme-color4;
 
                         article {
-                            font-size: $font-size-m;
-
                             .wp-block-button__link{
                                 @extend .btn;
                             }
@@ -642,6 +638,97 @@ footer {
             height          : 100px;
             padding         : 30px 0 30px 0;
             text-align      : center;
+        }
+    }
+}
+
+article {
+    h1 { 
+        font-size   : 1.6rem;
+        font-weight : bold;
+        margin      : 20px 0px 5px 0px;
+    }
+
+    h2 { 
+        font-size   : 1.5rem;
+        font-weight : bold;
+        margin      : 20px 0px 5px 0px;
+    }
+
+    h3 { 
+        font-size   : 1.4rem;
+        font-weight : bold;
+        margin      : 20px 0px 5px 0px;
+    }
+    
+    h4 { 
+        font-size   : 1.3rem;
+        font-weight : bold;
+        margin      : 20px 0px 5px 0px;
+    }
+
+    h5 { 
+        font-size   : 1.2rem;
+        font-weight : bold;
+        margin      : 20px 0px 5px 0px;
+    }
+
+    h6 { 
+        font-size   : 1.1rem;
+        font-weight : bold;
+        margin      : 20px 0px 5px 0px;
+    }
+
+    p {
+        font-size   : 1.0rem;
+        margin      : 5px 0px 5px 0px; 
+    }
+
+    ul {
+        list-style-type: disc;
+        margin          : 10px auto 10px auto;
+
+        li {
+            margin-left: 20px;
+        }
+    }
+
+
+    ol {
+        list-style-type: decimal-leading-zero;
+        margin          : 10px auto 10px auto;
+        
+        li {
+            margin-left: 20px;
+        }
+    }
+
+    table {
+        border          : 2px solid $theme-color4;
+        margin          : 10px auto 10px auto;
+
+        td, tr, th {
+            border      : 2px solid $theme-color4;
+            padding     : 10px 10px 10px 10px; 
+        }
+    }
+
+    figure {
+        margin: 20px auto 20px auto;
+        border-radius: 5px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            margin : 10px auto 10px auto;
+            width: 90%;
+        }
+
+        figcaption {
+            font-size: $font-size-xs;
         }
     }
 }
