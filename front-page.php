@@ -6,6 +6,15 @@ get_header();
 	<section id="top" class="main-section">
 		<?php get_template_part( 'parts/front-page/top' ); ?>
 	</section>
+	<section id="feature" class="main-section">
+		<div class="main-section__title">
+			<h2 class="main-section__title__item_main">【事務×GYM】の特徴</h2>
+			<h4 class="main-section__title__item_sub">feature</h4>
+		</div>
+		<div class="main-section__content">
+			<?php get_template_part( 'parts/front-page/feature' ); ?>
+		</div>
+	</section>
 	<section id="curriculum" class="main-section">
 		<div class="main-section__title">
 			<h2 class="main-section__title__item_main">カリキュラム</h2>
@@ -15,6 +24,7 @@ get_header();
 			<?php get_template_part( 'parts/front-page/curriculum' ); ?>
 		</div>
 	</section>
+
 	<!-- <section id="news" class="main-section">
 		<div class="main-section__title">
 			<h2 class="main-section__title__item_main">お知らせ</h2>
