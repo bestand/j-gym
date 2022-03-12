@@ -10,7 +10,7 @@ get_header();
 			$category = get_category($cat_id);
 			$cat_slug = $category->slug;
 			?>
-			<h1 class="main-section__title__item_main">カテゴリー: <?php echo $cat_slug; ?></h1>
+			<h1 class="main-section__title__item_main">カリキュラム： <?php echo $cat_slug; ?></h1>
 		</div>
 		<div class="main-section__content_category">
 		<?php
