@@ -50,6 +50,9 @@ get_header();
 				<div class="article-item__title">
 					<a href="<?php the_permalink() ?>"><h2><?php the_title(); ?></h2></a>
 				</div>
+				<div class="article-item__excerpt">
+					<p><?php the_excerpt(); ?></p>
+				</div>
 				<div class="article-item__tag">
 					<span><?php the_tags("",",",""); ?></span>
 				</div>

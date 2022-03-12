@@ -498,6 +498,14 @@ main {
                         }
                     }
 
+                    &__excerpt {
+                        width   : 100%;
+                        margin  : 0px 10px 0px 10px;                        
+                        p {
+                            font-size   : $font-size-s;
+                        }
+                    }
+
                     &__tag {
                         width   : 100%;
                         margin  : 0px 10px 0px 10px;
