@@ -7,9 +7,11 @@
     <div class="curriculum-item__content">
         <p>タッチタイピングの上達方法や目指すべき水準などをご説明します。</p>
     </div>
-    <button class="curriculum-item__btn btn">
-        <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
-    </button>
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>/category/typing">
+        <button class="curriculum-item__btn btn">
+            <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
+        </button>
+    </a>
 </section>
 
 <section class="curriculum-item">
@@ -21,9 +23,11 @@
     <div class="curriculum-item__content">
         <p>作業効率を上げる方法や、Excelで資料作成する際の注意点をご説明します。</p>
     </div>
-    <button class="curriculum-item__btn btn">
-        <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
-    </button>
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>/category/excel">
+        <button class="curriculum-item__btn btn">
+            <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
+        </button>
+    </a>
 </section>
 
 <section class="curriculum-item">
@@ -35,9 +39,11 @@
     <div class="curriculum-item__content">
         <p>きれいで伝わる資料を作る方法をご説明します。</p>
     </div>
-    <button class="curriculum-item__btn btn">
-        <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
-    </button>
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>/category/powerpoint">
+        <button class="curriculum-item__btn btn">
+            <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
+        </button>
+    </a>
 </section>
 
 <section class="curriculum-item">
@@ -49,9 +55,11 @@
     <div class="curriculum-item__content">
         <p>伝わりやすい文章の構造や見やすいレイアウトについてご説明します。</p>
     </div>
-    <button class="curriculum-item__btn btn">
-        <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
-    </button>
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>/category/word">
+        <button class="curriculum-item__btn btn">
+            <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
+        </button>
+    </a>
 </section>
 
 <section class="curriculum-item">
@@ -63,9 +71,11 @@
     <div class="curriculum-item__content">
         <p>Windowsのショートカット等を使った業務効率化についてご説明します。</p>
     </div>
-    <button class="curriculum-item__btn btn">
-        <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
-    </button>
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>/category/windows">
+        <button class="curriculum-item__btn btn">
+            <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
+        </button>
+    </a>
 </section>
 
 <section class="curriculum-item">
@@ -77,9 +87,11 @@
     <div class="curriculum-item__content">
         <p>WebブラウザであるGoogle Chromeについて、ショートカットやおすすめアドオンをご説明します。</p>
     </div>
-    <button class="curriculum-item__btn btn">
-        <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
-    </button>
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>/category/chrome">
+        <button class="curriculum-item__btn btn">
+            <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
+        </button>
+    </a>
 </section>
 
 <section class="curriculum-item">
@@ -91,9 +103,11 @@
     <div class="curriculum-item__content">
         <p>メールソフト「Gmail」のショートカットやアドオンについてご説明します。</p>
     </div>
-    <button class="curriculum-item__btn btn">
-        <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
-    </button>
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>/category/gmail">
+        <button class="curriculum-item__btn btn">
+            <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
+        </button>
+    </a>
 </section>
 
 <section class="curriculum-item">
@@ -105,9 +119,11 @@
     <div class="curriculum-item__content">
         <p>Googleスプレッドシートについて操作の仕方や効率化をご説明します。</p>
     </div>
-    <button class="curriculum-item__btn btn">
-        <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
-    </button>
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>/category/google-spreadsheet">
+        <button class="curriculum-item__btn btn">
+            <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
+        </button>
+    </a>
 </section>
 
 <section class="curriculum-item">
@@ -119,9 +135,11 @@
     <div class="curriculum-item__content">
         <p>アンケートツールであるGoogle Formについて、機能やカスタマイズのご説明をします。</p>
     </div>
-    <button class="curriculum-item__btn btn">
-        <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
-    </button>
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>/category/google-form">
+        <button class="curriculum-item__btn btn">
+            <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
+        </button>
+    </a>
 </section>
 
 <section class="curriculum-item">
@@ -133,7 +151,9 @@
     <div class="curriculum-item__content">
         <p>その他の仕事術などについて記事をまとめています。</p>
     </div>
-    <button class="curriculum-item__btn btn">
-        <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
-    </button>
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>/category/etc">
+        <button class="curriculum-item__btn btn">
+            <p class="btn__p">学習する <i class="fa-solid fa-circle-chevron-right"></i></p>
+        </button>
+    </a>
 </section>
