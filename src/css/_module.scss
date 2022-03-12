@@ -8,9 +8,15 @@
     border          : 2px solid $theme-color1;
     border-radius   : 15px;
 
+    display         : flex;
+    flex-direction  : row;
+    align-items     : center;
+    justify-content : center;
+
     &__p{
         font-weight : bold;
         text-align  : center;
+        font-size   : $font-size-m;
     }
 }
 

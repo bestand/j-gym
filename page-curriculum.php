@@ -19,8 +19,16 @@ get_header();
 			?>
 
 			<?php foreach( $categories as $category ) : ?>
-				<li>
-					<a href="<?php echo get_category_link( $category->term_id ); ?>"><?php echo $category->name; ?></a>
+				<li class="curriculum">
+					<div class="curriculum__title">
+						<h2 class="curriculum__title__name"><?php echo $category->name; ?></h2>
+						<p class="curriculum__title__description"><?php echo $category->description; ?></p>
+					</div>
+					<a href="<?php echo get_category_link( $category->term_id ); ?>">
+						<button class="curriculum__btn btn">
+							<p class="btn__p">学習する<i class="fa-solid fa-circle-chevron-right"></i></p>
+						</button>				
+					</a>
 				</li>
 			<?php endforeach; ?>
 		</div>

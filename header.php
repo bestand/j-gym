@@ -2,8 +2,8 @@
 <html <?php language_attributes(); ?>>
 
 <head>
-	<title>事務×GYM</title>
-	<meta name="description" content="【事務×GYM】事務職を目指す方・事務のスキルアップを目指す方のための学習サイト"/>
+	<title>【事務×GYM】 | 事務職を目指す方・事務スキル向上を目指す方のための学習サイト</title>
+	<meta name="description" content="事務職を目指す方・事務のスキルアップを目指す方のための学習サイト"/>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
