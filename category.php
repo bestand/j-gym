@@ -67,6 +67,13 @@ get_header();
 		wp_reset_postdata();
 		?>
 		</div>
+		<div class="back-to-curriculum">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>/curriculum">
+				<button class="btn">
+					<p class="btn__p">カリキュラム一覧へ戻る</p>
+				</button>
+			</a>
+		</div>
 	</section>
 </main>
 
