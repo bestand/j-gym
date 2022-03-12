@@ -675,7 +675,12 @@ main {
                                 }
 
                                 strong {
-                                    border-bottom: 2px solid $theme-color7;
+                                    font-size       : 1.2rem;
+                                    border-bottom   : 2px solid $theme-color7;
+                                }
+
+                                b {
+                                    font-size       : bold ;
                                 }
                             }
                         
