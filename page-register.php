@@ -12,7 +12,7 @@ get_header();
 			<?php }?>
 		</div>
 		<div>
-			<?php echo do_shortcode('[ultimatemember form_id="30"]'); ?>
+			<?php echo do_shortcode('[ultimatemember form_id="13"]'); ?>
 		</div>
 	</section>
 </main>
