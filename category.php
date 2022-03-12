@@ -19,7 +19,7 @@ get_header();
 			'post_type' => 'post',
 			'category_name' => $cat_slug,
 			'posts_per_page' => 20,
-			'orderby' => 'meta_value',
+			'orderby' => intval('meta_value'),
 			'meta_key' => 'item_order',
 			'order' => 'ASC'
 		));
