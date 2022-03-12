@@ -8,7 +8,7 @@ get_header();
 	</section>
 	<section id="feature" class="main-section">
 		<div class="main-section__title">
-			<h2 class="main-section__title__item_main">【事務×GYM】の特徴</h2>
+			<h2 class="main-section__title__item_main">特徴</h2>
 			<h4 class="main-section__title__item_sub">feature</h4>
 		</div>
 		<div class="main-section__content">
