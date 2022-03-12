@@ -666,9 +666,9 @@ main {
                                 font-size   : 1.2rem;
                                 margin      : 10px 0px 10px 0px;
                                 a {
-                                    color:$theme-color4;
-                                    text-decoration: underline;
-                                    
+                                    color           :$theme-color4;
+                                    text-decoration : underline;
+                                    font-size       : $font-size-s;
                                     &:active{
                                         color : $theme-color7;
                                       }
