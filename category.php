@@ -10,8 +10,10 @@ get_header();
 			$category = get_category($cat_id);
 			$cat_slug = $category->slug;
 			$cat_name = $category->name;
+			$cat_description = $category->description;
 			?>
 			<h1 class="main-section__title__item_main">カリキュラム： <?php echo $cat_name; ?></h1>
+			<p class="main-section__title__item_sub"><?php echo $cat_description; ?></p>
 		</div>
 		<div class="main-section__content_category">
 		<?php
