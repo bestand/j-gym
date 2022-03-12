@@ -12,7 +12,7 @@ get_header();
 			<?php
 			$args = array(
 				'parent' => 0,
-				'orderby' => 'term_order',
+				'orderby' => intval('term_order'),
 				'order' => 'ASC'
 			);
 			$categories = get_categories( $args );
