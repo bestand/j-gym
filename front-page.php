@@ -15,7 +15,7 @@ get_header();
 			<?php get_template_part( 'parts/front-page/curriculum' ); ?>
 		</div>
 	</section>
-	<section id="news" class="main-section">
+	<!-- <section id="news" class="main-section">
 		<div class="main-section__title">
 			<h2 class="main-section__title__item_main">お知らせ</h2>
 			<h4 class="main-section__title__item_sub">News</h4>
@@ -23,7 +23,7 @@ get_header();
 		<div class="main-section__content">
 			<?php get_template_part( 'parts/front-page/news' ); ?>
 		</div>
-	</section>
+	</section> -->
 	<section id="contact" class="main-section">
 		<div class="main-section__title">
 			<h2 class="main-section__title__item_main">お問い合わせ</h2>
