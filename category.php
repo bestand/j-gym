@@ -9,8 +9,9 @@ get_header();
 			$cat_id = get_query_var("cat");
 			$category = get_category($cat_id);
 			$cat_slug = $category->slug;
+			$cat_name = $category->name;
 			?>
-			<h1 class="main-section__title__item_main">カリキュラム： <?php echo $cat_slug; ?></h1>
+			<h1 class="main-section__title__item_main">カリキュラム： <?php echo $cat_name; ?></h1>
 		</div>
 		<div class="main-section__content_category">
 		<?php
@@ -28,15 +29,21 @@ get_header();
 				setup_postdata($post);
 		?>
 			<div class="article-item">
-				<div class="order-number"><span><?php echo esc_html(get_post_meta($post->ID, "item_order", true)); ?></span></div>
+				<div class="order-number">
+					<span><?php echo esc_html(get_post_meta($post->ID, "item_order", true)); ?></span>
+				</div>
 				<?php
 				if( esc_html(get_post_meta($post->ID, "item_premium", true)) === "on"){
 				?>
-					<div class="badge"><span>会員限定</span></div>
+				<div class="badge">
+					<span>会員限定</span>
+				</div>
 				<?php
 				}else{
 				?>
-					<div class="badge_off"><span></span></div>
+				<div class="badge_off">
+					<span></span>
+				</div>
 				<?php 
 				}
 				?>

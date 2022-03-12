@@ -9,8 +9,9 @@ get_header();
 			$tag_id		= get_query_var("tag_id");
 			$tag 		= get_tag($tag_id);
 			$tag_slug 	= $tag->slug;
+			$tag_name   = $tag->name;
 			?>
-			<h1 class="main-section__title__item_main">タグ: <?php echo $tag_slug; ?></h1>
+			<h1 class="main-section__title__item_main">タグ: <?php echo urldecode($tag_name); ?></h1>
 		</div>
 		<div class="main-section__content_tag">		
 		<?php
