@@ -673,15 +673,6 @@ main {
                                         color : $theme-color3;
                                       }
                                 }
-
-                                strong {
-                                    font-size       : 1.2rem;
-                                    background-color   : $theme-color3;
-                                }
-
-                                b {
-                                    font-size       : bold ;
-                                }
                             }
                         
                             ul {
@@ -725,6 +716,15 @@ main {
                                 figcaption {
                                     font-size: $font-size-xs;
                                 }
+                            }
+
+                            strong {
+                                font-size       : 1.2rem;
+                                background-color   : $theme-color3;
+                            }
+
+                            b {
+                                font-size       : bold ;
                             }
                         }
                     }
