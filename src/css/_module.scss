@@ -22,14 +22,14 @@
 
 .order-number {
     border-radius   : 4px;
-    width           : 30px;
+    width           : 100px;
     height          : 30px;    
     display         : flex;
     align-items     : center;
     justify-content : center;
 
     span {
-        font-size   : $font-size-l;
+        font-size   : $font-size-m;
         font-weight : bold;
         color       : $theme-color1;
 
