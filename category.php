@@ -49,14 +49,16 @@ get_header();
 				<?php 
 				}
 				?>
-				<a href="<?php the_permalink() ?>">
-					<div class="article-item__title">
+				<div class="article-item__title">
+					<a href="<?php the_permalink() ?>">
 						<h2><?php the_title(); ?></h2>
-					</div>
-					<div class="article-item__excerpt">
+					</a>
+				</div>
+				<div class="article-item__excerpt">
+					<a href="<?php the_permalink() ?>">
 						<p><?php the_excerpt(); ?></p>
-					</div>
-				</a>
+					</a>
+				</div>
 				<div class="article-item__tag">
 					<span><?php the_tags("",",",""); ?></span>
 				</div>
