@@ -726,6 +726,10 @@ main {
                             b {
                                 font-size       : bold ;
                             }
+
+                            hr {
+                                color :$theme-color1;
+                            }
                         }
                     }
                 }
