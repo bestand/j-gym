@@ -5,7 +5,6 @@ $theme-color3: #FFEC07;
 $theme-color4: #006c8c;
 $theme-color5: #e4ecfb;
 $theme-color6: #dbe5eb;
-$theme-color7: #ffd700;
 
 $font-size-xs  :0.75rem;
 $font-size-s   :0.9rem;
@@ -671,7 +670,7 @@ main {
                                     text-decoration : underline;
                                     font-size       : $font-size-s;
                                     &:active{
-                                        color : $theme-color7;
+                                        color : $theme-color3;
                                       }
                                 }
 
@@ -720,6 +719,7 @@ main {
                                 img {
                                     margin : 10px auto 10px auto;
                                     width: 90%;
+                                    max-width: 750px;
                                 }
                         
                                 figcaption {
