@@ -17,7 +17,7 @@ get_header();
 				<span>更新日: <?php the_modified_date('Y/m/d') ?></span>
 			</div>
 			<div class="main-section__sub">
-				<span><?php the_category(', ') ?></span>
+				<span>コース：<?php the_category(', ') ?></span>
 				<span><?php the_tags("",", ",""); ?></span>
 			</div>
 			<div class="main-section__article">

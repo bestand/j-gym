@@ -12,7 +12,7 @@ get_header();
 			$cat_name = $category->name;
 			$cat_description = $category->description;
 			?>
-			<h1 class="main-section__title__item_main"><?php echo $cat_name; ?></h1>
+			<h1 class="main-section__title__item_main">コース：<?php echo $cat_name; ?></h1>
 			<p class="main-section__title__item_sub"><?php echo $cat_description; ?></p>
 		</div>
 		<div class="main-section__content_category">
