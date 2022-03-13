@@ -32,7 +32,7 @@ get_header();
 		?>
 			<div class="article-item">
 				<div class="order-number">
-					<span><?php echo esc_html(get_post_meta($post->ID, "item_order", true)); ?></span>
+					<span>セクション<?php echo esc_html(get_post_meta($post->ID, "item_order", true)); ?></span>
 				</div>
 				<?php
 				if( esc_html(get_post_meta($post->ID, "item_premium", true)) === "on"){
