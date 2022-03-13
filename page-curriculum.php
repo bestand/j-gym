@@ -21,7 +21,7 @@ get_header();
 			<?php foreach( $categories as $category ) : ?>
 				<li class="curriculum">
 					<div class="curriculum__title">
-						<h2 class="curriculum__title__name"><?php echo $category->name; ?></h2>
+						<h2 class="curriculum__title__name"><?php echo $category->name; ?>コース</h2>
 						<p class="curriculum__title__description"><?php echo $category->description; ?></p>
 					</div>
 					<a href="<?php echo get_category_link( $category->term_id ); ?>">
