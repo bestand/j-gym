@@ -1,5 +1,5 @@
 <div class="top-msgs">
-    <h1 class="top-msgs__item_main">事務スキルを磨くなら<br>事務×GYM</h1>
+    <h1 class="top-msgs__item_main">事務スキルの学習サイト<br>「事務×GYM」</h1>
     <h2 class="top-msgs__item_sub">充実のカリキュラムで「実務で使える」事務スキルが丸ごと学べる</h2>
 </div>
 <div class="top-btns">
