@@ -202,6 +202,10 @@ main {
 
     .main-section {
         padding         : 50px 10px 100px 10px;
+        display         : flex;
+        flex-direction  : column;
+        justify-content : center;
+        align-items     : center;
 
         &#top {
             position        : relative;
