@@ -4,7 +4,7 @@
 	</div>
 	<div class="footer__copyright">
 		<h5>
-			Copyright © 2022 BESTAND, Inc.
+			Copyright © 2022 JIMU-GYM.ONLINE
 		</h5>
 	</div>
 </footer>
