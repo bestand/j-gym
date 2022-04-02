@@ -13,13 +13,13 @@
 	<script src="https://kit.fontawesome.com/6ef63a1df5.js" crossorigin="anonymous"></script>
 	<?php wp_head(); ?>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-SHTBT0SQ1F"></script>
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-SHTBT0SQ1F"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
 		gtag('config', 'G-SHTBT0SQ1F');
-	</script>
+	</script> -->
 </head>
 
 <body <?php body_class(); ?>>
